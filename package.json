@@ -1,0 +1,33 @@
+{
+  "name": "myapp-2",
+  "version": "1.0.0",
+  "description": "Probando las funciones de NodeJs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js",
+    "star": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^4.6.0",
+    "csurf": "^1.11.0",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-session": "^1.17.3",
+    "express-validator": "^6.14.1",
+    "formidable": "^2.0.1",
+    "jimp": "^0.16.1",
+    "mongoose": "^6.3.5",
+    "mysql": "^2.18.1",
+    "nanoid": "^3.3.4",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0"
+  }
+}
